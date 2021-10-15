@@ -9,14 +9,23 @@ const Container = styled.div`
   div {
     width: 30%;
     position: absolute;
-    top: 4rem;
+    top: 2rem;
     left: 3rem;
     p {
       font-size: 45px;
       color: white;
-      >b >b {
+      > b > b {
         color: #ffff00;
       }
+    }
+    button {
+      width: 12rem;
+      height: 2rem;
+      border: 0px;
+      border-radius: 6px;
+      background-color: #2275ff;
+      color: white;
+      font-size: 21px;
     }
   }
 `;
@@ -30,7 +39,9 @@ export default function Welcome() {
       />
       <div>
         <p>
-          <b><b>MÁS</b> DE 800 MIL FAMILIAS HABILITADAS</b>
+          <b>
+            <b>MÁS</b> DE 800 MIL FAMILIAS HABILITADAS
+          </b>
         </p>
         <button>VER PRODUCTOS</button>
       </div>

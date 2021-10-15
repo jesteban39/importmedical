@@ -26,6 +26,7 @@ const Container = styled.div`
       height: 2rem;
       border: 0px;
       border-radius: 6px;
+      color: white;
       background-color: #2275ff;
     }
   } 

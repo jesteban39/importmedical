@@ -87,7 +87,7 @@ export default function Home() {
         <img src="https://www.iberomed.es/blog/wp-content/uploads/2019/05/tipos-de-silla-de-ruedas-1280x640.jpg" />
         <div className="products">
           <h1>SILLAS DE RUEDAS</h1>
-          <div>
+          <div className="products">
             {products.map((product) => (
               <Product
                 key={product.id}
